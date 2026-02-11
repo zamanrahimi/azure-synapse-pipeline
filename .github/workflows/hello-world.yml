@@ -1,0 +1,12 @@
+name: Hello World Manual Run
+
+on:
+  workflow_dispatch:   # <-- enables the Run workflow button
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World"

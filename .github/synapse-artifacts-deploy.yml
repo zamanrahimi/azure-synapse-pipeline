@@ -6,6 +6,7 @@ on:
     branches: [ workspace_publish ]     # triggers when you click Publish in Synapse Studio
   workflow_dispatch:                    # allow manual runs
 
+
 jobs:
   deploy-artifacts:
     runs-on: ubuntu-latest
