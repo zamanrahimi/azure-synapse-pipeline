@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo "Hello World"
+      - name: Step two 
+        run: echo "print something"
